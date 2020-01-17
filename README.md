@@ -1,6 +1,9 @@
+Forked from [patrickbdev/PBImageView](https://github.com/patrickbdev/PBImageView) v. 1.0.3.
+
 # PBImageView
 
 [![Version](https://img.shields.io/cocoapods/v/PBImageView.svg?style=flat)](http://cocoapods.org/pods/PBImageView)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/PBImageView.svg?style=flat)](http://cocoapods.org/pods/PBImageView)
 [![Platform](https://img.shields.io/cocoapods/p/PBImageView.svg?style=flat)](http://cocoapods.org/pods/PBImageView)
 
@@ -39,16 +42,26 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-PBImageView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+PBImageView is available through [CocoaPods](http://cocoapods.org) and [Carthage](https://github.com/Carthage/Carthage).
+
+To install it using CocoaPods, simply add the following line to your Podfile:
 
 ```ruby
 pod "PBImageView"
 ```
 
-## Author
+To install it using Carthage, add the following line to your Cartfile:
+```
+github "pju-trifork/PBImageView" == 1.0.4
+```
+Then run `carthage update` command.
+
+
+## Authors
 
 patrickbdev, patbdev@gmail.com
+
+pju-trifork, pju@trifork.com
 
 ## License
 
